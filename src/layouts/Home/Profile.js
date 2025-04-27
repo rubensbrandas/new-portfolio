@@ -5,7 +5,7 @@ import { DecoderText } from 'components/DecoderText';
 import { Divider } from 'components/Divider';
 import { Heading } from 'components/Heading';
 import { Image } from 'components/Image';
-import { Link } from 'components/Link';
+// import { Link } from 'components/Link';
 import { Section } from 'components/Section';
 import { Text } from 'components/Text';
 import { Transition } from 'components/Transition';
@@ -20,7 +20,7 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I'm Rubens, a Systems Analysis graduate from the Federal Institute of Bahia,
+      I&apos;m Rubens, a Systems Analysis graduate from the Federal Institute of Bahia,
       currently working as a Frontend Developer with over 9 years of experience in the
       tech industry. My main focus is building scalable and dynamic web applications using
       React, TypeScript, Redux, and modern UI libraries like Material-UI and Styled
@@ -38,8 +38,8 @@ const ProfileText = ({ visible, titleId }) => (
       challenges and delivering solutions that make a real impact. I also have experience
       with cloud services like AWS and have worked as an IT Coordinator, supporting a team
       of 36 employees and managing a daily public service of over 400 users. Beyond
-      development, I’ve had the opportunity to teach web development at a technical level,
-      helping students master PHP, HTML, JavaScript, and CSS.
+      development, I&apos;ve had the opportunity to teach web development at a technical
+      level, helping students master PHP, HTML, JavaScript, and CSS.
       {/* I am a member of the{' '}
       <Link href="https://msckiit.tech">
         Microsoft Learn Student Ambassadors, KIIT Chapter
@@ -54,8 +54,8 @@ const ProfileText = ({ visible, titleId }) => (
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       My international experiences across the Americas, Europe, Southeast Asia, and the
       Middle East have shaped my ability to adapt, communicate, and collaborate with
-      diverse teams. I'm always looking forward to growing both technically and personally
-      — and contributing wherever I can add value.
+      diverse teams. I&apos;m always looking forward to growing both technically and
+      personally — and contributing wherever I can add value.
     </Text>
   </Fragment>
 );
