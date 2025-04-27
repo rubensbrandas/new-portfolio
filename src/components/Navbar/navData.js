@@ -17,25 +17,24 @@ export const navLinks = [
   },
   {
     label: 'Resume',
-    pathname:
-      'https://drive.google.com/file/d/1w0fSvU6YW2pG-HmDci4CAR_KE_K9zE0L/view?usp=sharing',
+    pathname: '/resume-R_Brandas.pdf',
   },
 ];
 
 export const socialLinks = [
   {
     label: 'Github',
-    url: 'https://github.com/mayankjain25',
+    url: 'https://github.com/rubensbrandas',
     icon: 'github',
   },
   {
     label: 'Linkedin',
-    url: 'https://www.linkedin.com/in/mayank-jain-688409208/',
+    url: 'https://www.linkedin.com/in/rubens-brandas/',
     icon: 'linkedin',
   },
-  {
-    label: 'Leetcode',
-    url: 'https://leetcode.com/jainmayank2509/',
-    icon: 'leetcode',
-  },
+  // {
+  //   label: 'Leetcode',
+  //   url: 'https://leetcode.com/jainmayank2509/',
+  //   icon: 'leetcode',
+  // },
 ];
