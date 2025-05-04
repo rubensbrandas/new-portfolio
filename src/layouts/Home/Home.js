@@ -9,10 +9,10 @@ import sprTexturePlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jp
 import hmsPreview from 'assets/hms-preview.png';
 import cicd from 'assets/cicd.png';
 // import algoVE from 'assets/algo-ve-preview.png';
-import blockchain from 'assets/blockchain.png';
+import blockchain from 'assets/FutureCoders.png';
 // import algoVE2 from 'assets/algoVE2.png';
-import stockDash from 'assets/stock-dashboard.png';
-import stockDash2 from 'assets/stockDash2.png';
+import stockDash from 'assets/vidgiLogin.jpg';
+import stockDash2 from 'assets/vidgiGames.jpg';
 import { Footer } from 'components/Footer';
 import { Meta } from 'components/Meta';
 import { Intro } from 'layouts/Home/Intro';
@@ -87,10 +87,10 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Hostel Management System"
-        description="A platform for students to address all their hostel issues with their hostel warden"
+        title="The Louvershop"
+        description="Developed websites to capture new orders and showcase products, significantly boosting customer engagement and sales. Optimized databases for better performance, ensuring scalability and long-term efficiency. Worked closely with leadership to design and prototype innovative tools that enhanced data management and analysis. Additionally, maintained and debugged existing systems to ensure smooth operation and rapid resolution of technical issues."
         buttonText="View project"
-        buttonLink="https://github.com/mayankjain25/Hostel-Management-System"
+        buttonLink="https://louvershop.com"
         model={{
           type: 'laptop',
           alt: 'Displaying the home page of the website.',
@@ -108,10 +108,10 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Blockchain Based FIR Registration System"
-        description="A blockchain based FIR registration system to ensure transparency and security of the data to facilitate and safeguard the interests of the victim."
-        buttonText="Visit repository"
-        buttonLink="https://github.com/mayankjain25/Blockchain-Based-FIR-System"
+        title="Future Coders"
+        description="I designed and developed a dynamic institutional website with user data collection features, seamlessly integrating a robust database to ensure efficient data storage, retrieval, and administrative management. Additionally, I taught programming fundamentals to children aged 5–11 using LEGO robotics, encouraging creativity and hands-on learning. I also guided students through collaborative projects that strengthened their teamwork, strategic thinking, and problem-solving skills."
+        buttonText="View project"
+        buttonLink="https://futurecoders.com"
         model={{
           type: 'laptop',
           alt: 'landing page',
@@ -128,10 +128,10 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="CI/CD Pipeline using Jenkins and Docker"
-        description="his is a basic starter website that was built incorporating a CI/CD Pipeline involving GitHub Webhooks and Jenkins. Every push is deployed via an nginx docker container"
-        buttonText="View project"
-        buttonLink="https://github.com/mayankjain25/Microo-Starter-Website"
+        title="GFT consulting"
+        description="I worked as a Mid-Level Frontend Engineer, enhancing user interfaces for high-traffic applications. I led the implementation of open-insurance solutions at a major insurance company using ReactJs, NodeJs, and advanced form libraries like React Hook Form, Formik, and Yup to improve form handling and validation. Additionally, I developed a scalable tool that allowed employees to upload and store large volumes of Excel data efficiently. I also created visually rich, data-driven reports by extracting backend information, providing clients with clear, actionable insights."
+        buttonText="View company"
+        buttonLink="https://www.gft.com/us/en"
         model={{
           type: 'laptop',
           alt: 'Visual description of the pipeline workflow',
@@ -149,10 +149,10 @@ export const Home = () => {
         sectionRef={projectFour}
         visible={visibleSections.includes(projectFour.current)}
         index={4}
-        title="Stocks Dashboard"
-        description="A dashboard to display some of the top performing stocks in the Indian market"
-        buttonText="View website"
-        buttonLink="http://stock-dashboard.kiitians.com/"
+        title="Vidgi Games"
+        description="Partnered with the gaming company, VIDGI, to develop their website and enhance their in-game betting system, improving user engagement and functionality."
+        buttonText="View Project"
+        buttonLink="/manual-vidgi-1.pdf"
         model={{
           type: 'phone',
           alt: 'App login screen',
